@@ -1,0 +1,15 @@
+{
+  "name": "instabot-ui-server",
+  "version": "0.0.1",
+  "dependencies": {
+    "express": "4.15.2",
+    "socket.io": "1.7.4"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "main": "server.js",
+  "keywords": [],
+  "author": "Federico Gandellini <fgandellini@gmail.com> (https://github.com/fgandellini)",
+  "license": "MIT"
+}

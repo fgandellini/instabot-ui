@@ -1,0 +1,29 @@
+{
+  "name": "instabot-ui-app",
+  "version": "0.0.1",
+  "private": true,
+  "devDependencies": {
+    "@cycle/xstream-adapter": "3.1.0",
+    "cycle-scripts": "1.1.0"
+  },
+  "dependencies": {
+    "@cycle/dom": "17.1.0",
+    "@cycle/run": "3.1.0",
+    "cycle-socket.io": "4.0.0",
+    "socket.io-client": "1.7.4",
+    "xstream": "10.7.0"
+  },
+  "scripts": {
+    "start": "cycle-scripts start",
+    "test": "cycle-scripts test",
+    "build": "cycle-scripts build",
+    "eject": "cycle-scripts eject"
+  },
+  "babel": {
+    "presets": [
+      "es2015"
+    ]
+  },
+  "author": "Federico Gandellini <fgandellini@gmail.com> (https://github.com/fgandellini)",
+  "license": "MIT"
+}
